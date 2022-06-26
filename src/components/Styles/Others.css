@@ -1,0 +1,19 @@
+.Fixed-button{
+width: 54px;
+height: 54px;
+background: linear-gradient(#FF5C5C,#F0568A
+
+);
+border-radius: 50%;
+}
+.to-top{
+color: #DADADA;
+width: 20px !important;
+height: 20px !important;
+text-align: center;
+
+}
+.Bottom{
+ position: sticky;
+top: 0%;
+}

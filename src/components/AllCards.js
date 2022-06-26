@@ -17,7 +17,7 @@ import './Styles/Others.css';
 const AllCards= () => {
   return (
     <div className="Relativee ">
-      <div className="d-flex justify-content-end fixed-bottom me-5 pe-5  mb-3">
+      <div className="d-flex justify-content-end fixed-bottom me-4  mb-2">
         <div className="Fixed-button d-block d-md-none d-flex align-items-center justify-content-center">
           <a href="#" className="to-top ">
             <ImPencil />

@@ -1,27 +1,27 @@
-import Banner from "./components/Banner";
-import Moodal from "./components/Moodal";
-import Navbar from "./components/Navbar";
-import Others from "./components/Others";
-import Post from "./components/Post";
-import PostCard from "./components/PostCard";
+import MainBanner from './components/MainBanner';
+import MyModal from './components/MyModal';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import UserPost from './components/UserPost';
+import AllCards from './components/AllCards';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Banner/>
-      <Post/>
+      <Navbar />
+      <MainBanner></MainBanner>
+      <UserPost />
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-8">
-          <PostCard/>
+            <AllCards />
           </div>
           <div className="d-sm-none d-md-block col-md-4">
-            <Others/>
+            <Sidebar />
           </div>
         </div>
       </div>
-      <Moodal/>
+      <MyModal />
     </div>
   );
 }

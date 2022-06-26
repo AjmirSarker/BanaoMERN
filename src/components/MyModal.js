@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Moodal = () => {
+const MyModal = () => {
     return (
         <div>
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -39,4 +39,4 @@ const Moodal = () => {
     );
 };
 
-export default Moodal;
+export default MyModal;

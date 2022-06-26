@@ -14,10 +14,10 @@ import person3 from '../resources/img/person/person3.png';
 import person4 from '../resources/img/person/person4.png';
 import { ImPencil } from 'react-icons/im';
 import './Styles/Others.css';
-const PostCard = () => {
+const AllCards= () => {
   return (
     <div className="Relativee ">
-      <div className="d-flex justify-content-end fixed-bottom me-5">
+      <div className="d-flex justify-content-end fixed-bottom me-5 pe-5  mb-3">
         <div className="Fixed-button d-block d-md-none d-flex align-items-center justify-content-center">
           <a href="#" className="to-top ">
             <ImPencil />
@@ -563,4 +563,4 @@ const PostCard = () => {
   );
 };
 
-export default PostCard;
+export default AllCards;

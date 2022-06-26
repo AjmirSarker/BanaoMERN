@@ -11,7 +11,7 @@ import groupPic4 from '../resources/img/group/group4.png'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../Firebase/Firebase';
 import './Styles/Others.css'
-const Others = () => {
+const Sidebar = () => {
     const [user] = useAuthState(auth)
     const [follow,setFollow] = useState(true)
     const [follow2,setFollow2] = useState(true)
@@ -154,4 +154,4 @@ const Others = () => {
     );
 };
 
-export default Others;
+export default Sidebar;
